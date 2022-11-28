@@ -1,7 +1,8 @@
 //文字間距
-@mixin font($size) {
+@mixin font($size, $weight) {
     font-size: $size;
     line-height: $size*1.5;
+    font-weight: $weight;
 }
 
 //文字呈現限制
